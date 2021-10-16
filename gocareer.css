@@ -145,13 +145,13 @@ footer
 {
     background-color: rgb(83, 36, 36);
     width:100vw;
-    height: 15vh;
+    height: 5vh;
     font-family:"open sans";
     /* padding-top: 0px; */
     color:white;
 
 }
-.footer-content
+/* .footer-content
 {
     display: flex;
     align-items: center;
@@ -166,7 +166,7 @@ footer
     text-transform: capitalize;
     line-height: 3rem;
 
-}
+} */
  /* .footer-content p
 {
     max-width: 500px; 
@@ -174,7 +174,7 @@ footer
     font-size: 14px;
     line-height: 28rem; 
 } */
-.socials{
+/* .socials{
     list-style: none;
     display: flex;
     align-items: center;
@@ -195,7 +195,7 @@ footer
 }
 .socials a:hover i{
     color: red;
-}
+} */
 .footer-bottom
 {
     background:rgb(83, 36, 36);
