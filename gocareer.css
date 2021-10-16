@@ -5,7 +5,7 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 header{
-    width:100%;
+    width:100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('gocareer5.jpg');
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ nav
 {
     width: 25%;
     text-align:center;
-   /* background:blue;*/
+   color:rgb(194, 36, 36);
 }
 .menu
 {
@@ -131,3 +131,87 @@ section h3
     letter-spacing: 3px;
     text-shadow: 1px 1px 2px black;
 }
+/* *{
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} */
+/* body
+{
+    background: white;
+} */
+footer
+{
+    background-color: rgb(83, 36, 36);
+    width:100vw;
+    height: 15vh;
+    font-family:"open sans";
+    /* padding-top: 0px; */
+    color:white;
+
+}
+.footer-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h2
+{
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+ /* .footer-content p
+{
+    max-width: 500px; 
+     margin: 10px;
+    font-size: 14px;
+    line-height: 28rem; 
+} */
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0rem 0;
+
+}
+.socials li {
+   margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transistion: color .4s ease;
+}
+.socials a:hover i{
+    color: red;
+}
+.footer-bottom
+{
+    background:rgb(83, 36, 36);
+    width:100vw;
+     padding: 20px;
+    text-align: center;
+}
+.footer-bottom p
+{
+   font-size: 14px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: lowercase;
+    opacity: 0.4s;
+    font-weight: 200;
+}
+
